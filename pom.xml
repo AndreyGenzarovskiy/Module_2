@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Level_1</module>
+        <module>Level_2</module>
     </modules>
 
     <properties>
@@ -50,6 +51,12 @@
         <dependency>
             <groupId>org.example</groupId>
             <artifactId>Level_1</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>Level_2</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
