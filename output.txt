@@ -1,0 +1,2 @@
+3 [gdansk, bydgoszcz, torun, warszawa]
+2 [bydgoszcz, torun, warszawa]
