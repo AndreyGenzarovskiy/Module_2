@@ -1,4 +1,6 @@
 package main;
+import task1.DateFormatChange;
+import task2.SecondTask;
 import task3.Reader;
 import task3.Utils;
 import task3.data.Node;
@@ -7,14 +9,17 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.time.LocalDate;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        /*String strDate = new Scanner(System.in).nextLine();
+        String strDate = new Scanner(System.in).nextLine();
         List<String> patterns = Arrays.asList("[0-9]{2}/[0-9]{2}/[0-9]{4}",
                 "[0-9]{4}/[0-9]{2}/[0-9]{2}",
                 "[0-9]{2}-[0-9]{2}-[0-9]{4}");
@@ -26,7 +31,7 @@ public class Main {
         }
 
         List<String> cities = Arrays.asList("Kiev", "Kharkov", "Odessa", "Kharkov", "Kiev");
-        System.out.println(SecondTask.getFirstUniqueStringInList(cities));*/
+        System.out.println(SecondTask.getFirstUniqueStringInList(cities));
 
         File output = new File("output.txt");
         if (!output.exists()) {
